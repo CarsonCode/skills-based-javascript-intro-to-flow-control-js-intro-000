@@ -28,7 +28,7 @@ describe('flow-control', () => {
 
     it('should return undefined if the age is not between 13-19', () => {
       expect(basicTeenager(12)).toBe("You are a kid")
-      return basicTeenager.tobe('You are a kid');
+      return basicTeenager().tobe('You are a kid');
     })
 
   })
